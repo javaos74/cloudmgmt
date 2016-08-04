@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Label" id="1" x="70" y="48" text="VM 생성" measuredWidth="160" measuredHeight="63">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="2" x="64" y="208" text="Linux - CentOS 6&#xA;Linux - CentOS 7&#xA;Linux - Ubuntu 12.04&#xA;Linux - Ubuntu 14.04&#xA;(bg:green)|Linux - Ubuntu 16.04&#xA;Windows Server 2008 &#xA;Windows Sever 2012 R2" measuredWidth="153" measuredHeight="151">
+    <font/>
+    <items x="0" y="2" width="153" height="21" text="Linux - CentOS 6"/>
+    <items x="0" y="23" width="153" height="21" text="Linux - CentOS 7"/>
+    <items x="0" y="44" width="153" height="21" text="Linux - Ubuntu 12.04"/>
+    <items x="0" y="65" width="153" height="21" text="Linux - Ubuntu 14.04"/>
+    <items x="0" y="86" width="153" height="21" text="(bg:green)|Linux - Ubuntu 16.04"/>
+    <items x="0" y="107" width="153" height="21" text="Windows Server 2008 "/>
+    <items x="0" y="128" width="153" height="21" text="Windows Sever 2012 R2"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="3" x="80" y="176" text="운영체제 종류 리스트 " measuredWidth="105" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="4" x="256" y="139" height="289" measuredWidth="6" measuredHeight="289"/>
+  <widgets xsi:type="model:List" id="5" x="296" y="208" text="1 CPU, 1G Memory, 10G Disk &#xA;2 CPU, 1G Memory, 10G Disk&#xA;2 CPU, 2G Memory, 10G Disk &#xA;(bg:green)|4 CPU, 2G Memory, 20G Disk&#xA;4 CPU, 4G Memory, 20G Disk&#xA;4 CPU, 6G Memory, 30G Disk&#xA;6 CPU, 6G Memory, 30G Disk &#xA;8 CPU, 8G Memory, 50G Disk&#xA;10 CPU, 8G Memory, 50G Disk" measuredWidth="189" measuredHeight="193">
+    <font/>
+    <items x="0" y="2" width="189" height="21" text="1 CPU, 1G Memory, 10G Disk "/>
+    <items x="0" y="23" width="189" height="21" text="2 CPU, 1G Memory, 10G Disk"/>
+    <items x="0" y="44" width="189" height="21" text="2 CPU, 2G Memory, 10G Disk "/>
+    <items x="0" y="65" width="189" height="21" text="(bg:green)|4 CPU, 2G Memory, 20G Disk"/>
+    <items x="0" y="86" width="189" height="21" text="4 CPU, 4G Memory, 20G Disk"/>
+    <items x="0" y="107" width="189" height="21" text="4 CPU, 6G Memory, 30G Disk"/>
+    <items x="0" y="128" width="189" height="21" text="6 CPU, 6G Memory, 30G Disk "/>
+    <items x="0" y="149" width="189" height="21" text="8 CPU, 8G Memory, 50G Disk"/>
+    <items x="0" y="170" width="189" height="21" text="10 CPU, 8G Memory, 50G Disk"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="336" y="176" text="VM 리소스 선택 " measuredWidth="83" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="7" x="528" y="139" height="289" measuredWidth="6" measuredHeight="289"/>
+  <widgets xsi:type="model:Label" id="8" x="80" y="599" text="가상 스위치 선택 " measuredWidth="85" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="9" x="88" y="639" text="Platium&#xA;(bg:green)|Gold&#xA;Silver&#xA;Broze" measuredWidth="53" measuredHeight="88">
+    <font/>
+    <items x="0" y="2" width="53" height="21" text="Platium"/>
+    <items x="0" y="23" width="53" height="21" text="(bg:green)|Gold"/>
+    <items x="0" y="44" width="53" height="21" text="Silver"/>
+    <items x="0" y="65" width="53" height="21" text="Broze"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="346" y="527" text="포트 그룹 선택 " measuredWidth="75" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="13" x="80" y="527" text="인터페이스 개수 (최대 2개)" measuredWidth="131" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Spinner" id="14" x="88" y="559" width="67" text="2" measuredWidth="67" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="16" x="256" y="495" height="257" measuredWidth="6" measuredHeight="257"/>
+  <widgets xsi:type="model:Label" id="17" x="288" y="604" text="eth0 " measuredWidth="35" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="18" x="288" y="673" text="eth1" measuredWidth="32" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="19" x="346" y="596" text="WEB&#xA;WAS" measuredWidth="54" measuredHeight="44">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="20" x="288" y="559" text="인터페이스 " measuredWidth="59" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="21" x="288" y="582" width="197" measuredWidth="197" measuredHeight="6"/>
+  <widgets xsi:type="model:Combo" id="22" x="346" y="663" text="WEB&#xA;WAS" measuredWidth="54" measuredHeight="44">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="23" x="104" y="413" text="(1) 다음" measuredWidth="59" measuredHeight="26">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="24" x="368" y="416" text="(2) 다음" measuredWidth="59" measuredHeight="26">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="25" x="88" y="751" text="(3) 다음" measuredWidth="59" measuredHeight="26">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="26" x="368" y="751" text="(4) 다음" measuredWidth="59" measuredHeight="26">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="27" x="288" y="656" width="185" measuredWidth="185" measuredHeight="6"/>
+  <widgets xsi:type="model:Switch" id="28" x="420" y="604" text="DHCP" measuredWidth="84" measuredHeight="23" selected="true" background="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Switch" id="29" x="420" y="673" text="DHCP" measuredWidth="84" measuredHeight="23" selected="true" background="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="30" x="104" y="456" width="405" measuredWidth="405" measuredHeight="6"/>
+  <widgets xsi:type="model:VLine" id="31" x="533" y="479" height="289" measuredWidth="6" measuredHeight="289"/>
+  <widgets xsi:type="model:Note" id="32" x="440" y="527" text="선택된 인터페이스 개수만큼 &#xA;port group 선택 화면 나옴 &#xA;IP할당은 기본적으로 DHCP, Static 선택시 VM 생성 후 변경 가" measuredWidth="315" measuredHeight="62" textAlignment="Left">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
