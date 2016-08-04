@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:TabbedPane" id="1" x="32" y="40" width="462" height="489" text="Storage,Credential,Service Profile,vCenter" measuredWidth="462" measuredHeight="489" selection="0">
+    <items x="10" y="0" width="66" height="27" text="Storage"/>
+    <items x="76" y="0" width="80" height="27" text="Credential"/>
+    <items x="156" y="0" width="103" height="27" text="Service Profile"/>
+    <items x="259" y="0" width="66" height="27" text="vCenter"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="2" x="72" y="112" text="create OS booting volume" measuredWidth="168" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="3" x="72" y="144" text="OS Booting volume prefix " measuredWidth="153" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="4" x="264" y="144" text="ESXBOOT" measuredWidth="68" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="72" y="176" text="OS Booting volume size " measuredWidth="144" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="6" x="264" y="176" text="10" measuredWidth="27" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="304" y="176" text="GB" measuredWidth="23" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="64" y="272" text="Shared Volume Name (#1)" measuredWidth="155" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="9" x="259" y="272" text="DATASTORE" measuredWidth="81" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="64" y="304" text="Shared Volume Size" measuredWidth="119" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="11" x="259" y="304" text="4906" measuredWidth="43" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="12" x="326" y="304" text="GB" measuredWidth="23" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="13" x="64" y="360" text="Shared Volume Name (#2)" measuredWidth="155" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="14" x="259" y="360" text="ISO" measuredWidth="32" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="15" x="64" y="392" text="Shared Volume Size" measuredWidth="119" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="16" x="259" y="392" text="500" measuredWidth="35" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="17" x="326" y="392" text="GB" measuredWidth="23" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="18" x="64" y="232" width="377" measuredWidth="377" measuredHeight="6"/>
+  <widgets xsi:type="model:Button" id="20" x="239" y="480" text="Next !! " measuredWidth="61" measuredHeight="25">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

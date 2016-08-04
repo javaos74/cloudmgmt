@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="sketch">
+  <widgets xsi:type="model:Chart" id="1" x="80" y="112" width="169" height="161" measuredWidth="169" measuredHeight="161"/>
+  <widgets xsi:type="model:Chart" id="2" x="288" y="112" width="169" height="161" measuredWidth="169" measuredHeight="161"/>
+  <widgets xsi:type="model:Chart" id="3" x="492" y="112" width="169" height="161" measuredWidth="169" measuredHeight="161"/>
+  <widgets xsi:type="model:Chart" id="4" x="700" y="112" width="169" height="161" measuredWidth="169" measuredHeight="161" chartType="bar"/>
+  <widgets xsi:type="model:Chart" id="5" x="912" y="112" width="169" height="161" measuredWidth="169" measuredHeight="161"/>
+  <widgets xsi:type="model:Label" id="7" x="114" y="81" width="95" text="전체 VM 정보" measuredWidth="95" measuredHeight="24" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="328" y="81" width="95" text="전체 CPU 정보" measuredWidth="95" measuredHeight="24" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="512" y="81" width="95" text="전체 MEM 정보" measuredWidth="95" measuredHeight="24" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="720" y="81" width="137" text="전체  가상 스위치 정보" measuredWidth="137" measuredHeight="24" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="936" y="81" width="95" text="전체 스토리지 정보" measuredWidth="95" measuredHeight="24" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="12" x="710" y="296" text="각 호스트별 가상스위치 개수 &#xA;각 가상스위치별 포트그룹 개수 &#xA;" measuredWidth="159" measuredHeight="46">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="13" x="80" y="296" text="전체 VM 중 &#xA;활성VM 과 비활성 VM  비율 " measuredWidth="151" measuredHeight="46">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="14" x="306" y="296" text="전체 CPU  중 &#xA;활당된 CPU와 유휴 CPU  비율 " measuredWidth="167" measuredHeight="46">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="15" x="504" y="296" text="전체 메모리 중 &#xA;활당된 메모리와 유휴 메모리 비율 " measuredWidth="172" measuredHeight="46">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="16" x="912" y="296" width="199" text="전체 스토리지 중 &#xA;할당된 스토리지와 유휴 스토리지 비율 &#xA;" measuredWidth="199" measuredHeight="46">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="17" x="80" y="620" width="1031" height="80" text="Severity,Target Infra,Fault Type,최초발생시간, 최근발생시간,(align:center).발생회수,Description&#xA;Critical, UCS, XXX, 2014-07-23 21:90:00,2016-07-21 08:32:32,12, 해당 fault에 대한 설명 &#xA;" measuredWidth="1031" measuredHeight="80" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="18" x="80" y="588" width="153" text="Faults 정보 " measuredWidth="153" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="19" x="80" y="708" width="671" text="인프라에서 발생하는 Faults에 대한 리스트 정보 &#xA;- Severity, Target Infra, Fault Type, 최초발생시간/최근발생시간, 빈도수, 상세 설명 항목이 필요 " measuredWidth="671" measuredHeight="46" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="20" x="80" y="368" width="95" text="인프라 인벤토리 " measuredWidth="95" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="22" x="80" y="401" width="1031" height="161" text="번호, 모델명, HW Type, 이름,Mgmt IP,Firmware 버전, 최종 변경 일자(optional), Description &#xA;1,CUS Manager, UCSM,,,2.2(5d)&#xA;2,Cisco UCS 6120XP,Fabric Interconnect, FI-A, 10.72.86.203, xxxx-20119-2, 2013-4-23 17:00:23, 최종변경일자는 UCSM 버전 갱신일자 의미 &#xA;3,Cisco UCS 6120XP,Fabric Interconnect,FI-B,10.72.86.204, xxxx-20119-2,2014-4-23 17:00:23,&#xA;4,Cisco UCS 2104XP,IO Module1,,,2.2(5d),&#xA;5,Cisco UCS B200M2,Server,server1,KVM:10.72.86.101,adapter1: 2.2(3b)\nCIMC Controller: 2.2(5d),&#xA;&#xA;" measuredWidth="1031" measuredHeight="161" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="23" x="198" y="365" width="671" text="전체 HW 인프라에 대한 목록 및 Firmware 버전 정보 표시 " measuredWidth="671" measuredHeight="30" textAlignment="Left">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

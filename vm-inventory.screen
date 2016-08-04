@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Table" id="1" x="104" y="139" text="상태,Tenant,VM이름, IP주소, MAC 주소, CPU\n사용율(할당), Memory\n사용율(할당), 네트워크\n사용율(용량),Storage\n사용율(할당),선택 &#xA;{computer},테스트그룹, SR-17-TestGroup-TestDC,eth0:192.168.100.100\neth1:10.10.10.100,eth0: XX:Yy:00:00:00:01\neth1: XX:YY:00:00:00:02,80% (2vCPU), 72% (4096 MB), eth0: 2.8Mbps (10G)\neth1: 80Mbps(10G),/dev/sda: 29% (100GB)\n/dev/sdb: 30% (200GB),[x]&#xA;{computer},개발그룹,SR-201-DevGroup-DevDC,eth0:192.168.200.100\neth1:10.10.20.100,eth0: XX:Yy:40:00:00:01\neth1: XX:YY:40:00:00:02,89% (4vCPU), 50% (8192 MB), eth0: 200Mbps (10G)\neth1: 1.2Gbps(10G), /dev/sda: 59% (30GB),&#xA;&#xA;" measuredWidth="1069" measuredHeight="134" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="3" x="360" y="315" text="권한에 맞게 볼수 있는 전체 VM의 목록이 보여야함 &#xA;관리자는 모든 Tenant(group)을 볼수 있으며,  특정 Tenant 에 속하는 사용자는 해당 Tenant의 VM만 보이면 됨 &#xA;&#xA;VM 이름 선택시 옵션 화면이 출력되어 &#xA;VM Action을 수행할수 있음 " measuredWidth="548" measuredHeight="93" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="4" x="800" y="85" text="이름&#xA;IP&#xA;MAC" measuredWidth="47" measuredHeight="65">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="5" x="1008" y="85" text="검색" measuredWidth="40" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="6" x="856" y="86" width="145" text="키워드" measuredWidth="145" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="7" x="800" y="32" text="VM이름, IP주소, MAC 키워드로 검색 가능 &#xA;리스트할수 있는 목록에서 검색 되어야 함 " measuredWidth="219" measuredHeight="46">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="8" x="424" y="275" text="1,2,3,4,5" measuredWidth="128" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="11" height="23" text="1"/>
+    <items x="29" y="0" width="11" height="23" text="2"/>
+    <items x="58" y="0" width="11" height="23" text="3"/>
+    <items x="87" y="0" width="11" height="23" text="4"/>
+    <items x="116" y="0" width="11" height="23" text="5"/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="10" x="221" y="210" text="{stop} 종료하기 &#xA;{delete} 삭제하기 &#xA;---&#xA;상세정보보기&#xA;~설정변경하기~&#xA;---&#xA;* Option 1&#xA;Option 2&#xA;---&#xA;Submenu, >" measuredWidth="140" measuredHeight="198">
+    <items x="0" y="2" width="140" height="23" text="{stop} 종료하기 "/>
+    <items x="0" y="25" width="140" height="23" text="{delete} 삭제하기 "/>
+    <items x="0" y="48" width="140" height="11" text="---"/>
+    <items x="0" y="59" width="140" height="23" text="상세정보보기"/>
+    <items x="0" y="82" width="140" height="23" text="~설정변경하기~"/>
+    <items x="0" y="105" width="140" height="11" text="---"/>
+    <items x="0" y="116" width="140" height="23" text="* Option 1"/>
+    <items x="0" y="139" width="140" height="23" text="Option 2"/>
+    <items x="0" y="162" width="140" height="11" text="---"/>
+    <items x="0" y="173" width="140" height="23" text="Submenu, >"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="104" y="32" text="VM 목록 조회 화면 " measuredWidth="345" measuredHeight="63">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="12" x="104" y="86" text="VM상태는 아이콘에 색상&#xA;-녹색(정상), 빨간색(오류), 회색(꺼진상태)&#xA;" measuredWidth="211" measuredHeight="46" textAlignment="Left">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

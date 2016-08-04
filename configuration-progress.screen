@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:ProgressBar" id="1" x="72" y="96" width="385" measuredWidth="385" measuredHeight="18"/>
+  <widgets xsi:type="model:Label" id="3" x="160" y="48" text="Installation &amp; Configuration Progress " measuredWidth="217" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="6" x="72" y="144" width="385" height="281" text=" UCS Manager / 정상 / 16 MAC Policy created &#xA;  UCS Manager / 정상 /16 vNIC Policy created &#xA;  UCS Manager / 정상 /16 WWNN Policy created &#xA;  UCS Manager / 정상 / 32 WWPN  Policy create &#xA;  UCS Manager / 정상 /16 VLAN Group Policy created &#xA;  UCS Manager / 정상 /16 VLAN allocation created &#xA;  &#xA;  &#xA;  .... &#xA;  Storage / 정상 / 16 ESXBOOT volume created &#xA;  Storage / 정상 / DATASTORE volume created &#xA;  &#xA;  ...&#xA;  &#xA;  DONE !" measuredWidth="385" measuredHeight="281">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="7" x="336" y="251" text="installation 진행사항 출력 &#xA;컴포넌트/{정상|경고|오류}/메세지 포맷을 출력&#xA;" measuredWidth="230" measuredHeight="44" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="8" x="240" y="368" text="DONE" measuredWidth="55" measuredHeight="25">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

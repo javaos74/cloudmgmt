@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Image" id="1" x="64" y="120" width="385" height="145" measuredWidth="385" measuredHeight="145"/>
+  <widgets xsi:type="model:Button" id="2" x="344" y="335" height="56" text="로그인" measuredWidth="50" measuredHeight="56">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="3" x="112" y="335" text="사용자 ID" measuredWidth="51" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="4" x="184" y="336" text="javaos74@gmail.com" measuredWidth="133" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="112" y="368" text="비밀번" measuredWidth="36" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="6" x="184" y="368" width="133" text="********" measuredWidth="133" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

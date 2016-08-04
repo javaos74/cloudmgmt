@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:TabbedPane" id="1" x="32" y="40" width="462" height="633" text="vCenter,Credential,Service Profile,Storage" measuredWidth="462" measuredHeight="633" selection="0">
+    <items x="10" y="0" width="67" height="27" text="vCenter"/>
+    <items x="77" y="0" width="80" height="27" text="Credential"/>
+    <items x="157" y="0" width="105" height="27" text="Service Profile"/>
+    <items x="262" y="0" width="66" height="27" text="Storage"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="2" x="240" y="128" width="137" text="DC1" measuredWidth="137" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="3" x="64" y="128" text="Datacenter Name" measuredWidth="106" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="4" x="240" y="162" width="137" text="DC-Cluster1" measuredWidth="137" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="64" y="162" text="Cluseter Name" measuredWidth="90" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="6" x="240" y="200" width="137" text="DC-Store" measuredWidth="137" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="64" y="200" text="DataStore Name #1" measuredWidth="119" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="11" x="240" y="236" width="137" text="DC-ISO" measuredWidth="137" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="12" x="64" y="236" text="DataStore Name #2" measuredWidth="119" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="13" x="224" y="632" text="Next !! " measuredWidth="60" measuredHeight="25">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

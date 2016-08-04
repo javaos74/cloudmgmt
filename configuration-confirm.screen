@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:TextArea" id="2" x="112" y="88" height="241" text="service-profile,  storage, vcenter 에 대한 설정 요약 정보 " measuredWidth="305" measuredHeight="241">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="3" x="152" y="144" text="입력된 모든 설정 정보에 대한 내용 확인 화면 &#xA;" measuredWidth="225" measuredHeight="29">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="4" x="196" y="284" text="Modify" measuredWidth="59" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="5" x="304" y="284" text="OK" measuredWidth="38" measuredHeight="25">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

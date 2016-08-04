@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Tree" id="1" x="80" y="160" text="표준 가상스위치&#xA;-Platinum&#xA;--WEB&#xA;--WAS&#xA;--DB&#xA;--NoSQL&#xA;-Gold&#xA;--WEB&#xA;--WAS&#xA;--RDB&#xA;" measuredWidth="111" measuredHeight="220">
+    <items x="0" y="5" width="111" height="21" text="표준 가상스위치"/>
+    <items x="0" y="26" width="111" height="21" text="-Platinum"/>
+    <items x="0" y="47" width="111" height="21" text="--WEB"/>
+    <items x="0" y="68" width="111" height="21" text="--WAS"/>
+    <items x="0" y="89" width="111" height="21" text="--DB"/>
+    <items x="0" y="110" width="111" height="21" text="--NoSQL"/>
+    <items x="0" y="131" width="111" height="21" text="-Gold"/>
+    <items x="0" y="152" width="111" height="21" text="--WEB"/>
+    <items x="0" y="173" width="111" height="21" text="--WAS"/>
+    <items x="0" y="194" width="111" height="21" text="--RDB"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="2" x="200" y="160" text="PortGroup이름,VLAN,호스트 정보,VM 정보 , vmnic 정보 &#xA;WEB,101, 10.10.1.21\n10.10.1.22\n10.10.1.23\n10.10.1.24, SR-17-XXXX\nSR-18-YYYY\nSR-201-DevGroup, vmnic18\nvmnic19&#xA;DB,102, 10.10.1.21\n10.10.1.22\n10.10.1.23\n10.10.1.24, SR-102-Test," measuredWidth="404" measuredHeight="158" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="3" x="72" y="82" width="553" text="네트워크 목록 조회 화면 " measuredWidth="553" measuredHeight="63">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="4" x="256" y="352" text="표준가상 스위치는 스위치별로 리스트되면 되고 각 스위치는 여러개의 port group을 가지고 있음 &#xA;가상스위치가 선택되면 해당 스위치에 있는 모든 port group이 우측에나타나면 되고 &#xA;특정 portgroup이 선택되면 선택된 port group 정보면 출력되면 됨 &#xA;&#xA;" measuredWidth="459" measuredHeight="62" textAlignment="Left">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

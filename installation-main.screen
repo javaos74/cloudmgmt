@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:TabbedPane" id="1" x="32" y="40" width="462" height="633" text="Credential,Service Profile,Storage,vCenter" measuredWidth="462" measuredHeight="633" selection="0">
+    <items x="10" y="0" width="80" height="27" text="Credential"/>
+    <items x="90" y="0" width="105" height="27" text="Service Profile"/>
+    <items x="195" y="0" width="66" height="27" text="Storage"/>
+    <items x="261" y="0" width="67" height="27" text="vCenter"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="2" x="163" y="128" width="137" text="10.72.86.203" measuredWidth="137" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="75" y="128" text="IP Address" measuredWidth="66" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="5" x="163" y="160" width="137" text="admin" measuredWidth="137" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="75" y="160" text="User Name" measuredWidth="69" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="7" x="163" y="200" width="137" text="******" measuredWidth="137" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="75" y="200" text="Password" measuredWidth="61" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="9" x="347" y="160" text="Check" measuredWidth="57" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="123" y="88" text="UCS Manager (필수)" measuredWidth="116" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="11" x="160" y="312" width="137" text="10.72.86.203" measuredWidth="137" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="12" x="72" y="312" text="IP Address" measuredWidth="66" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="13" x="160" y="344" width="137" text="admin" measuredWidth="137" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="14" x="72" y="344" text="User Name" measuredWidth="69" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="15" x="160" y="384" width="137" text="******" measuredWidth="137" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="72" y="384" text="Password" measuredWidth="61" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="17" x="344" y="344" text="Check" measuredWidth="57" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="18" x="120" y="272" text="NetApp Storage (필수)" measuredWidth="127" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="19" x="64" y="250" width="401" measuredWidth="401" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="20" x="56" y="432" width="401" measuredWidth="401" measuredHeight="6"/>
+  <widgets xsi:type="model:TextField" id="21" x="160" y="488" width="137" text="10.72.86.203" measuredWidth="137" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="22" x="72" y="488" text="IP Address" measuredWidth="66" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="23" x="160" y="520" width="137" text="admin" measuredWidth="137" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="24" x="72" y="520" text="User Name" measuredWidth="69" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="25" x="160" y="560" width="137" text="******" measuredWidth="137" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="26" x="72" y="560" text="Password" measuredWidth="61" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="27" x="344" y="520" text="Check" measuredWidth="57" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="28" x="120" y="448" text="vCenter (옵션)" measuredWidth="83" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="29" x="242" y="621" text="Next !! " measuredWidth="60" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="31" x="320" y="456" text="최초 설치시 vCenter는 인프라 구축 후 설치됨 &#xA;만약 별도로 관리용서버가 존재하는 경우 vCenter정보 입력" measuredWidth="291" measuredHeight="46" textAlignment="Left">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
