@@ -6,16 +6,16 @@
   <widgets xsi:type="model:Note" id="3" x="360" y="315" text="권한에 맞게 볼수 있는 전체 VM의 목록이 보여야함 &#xA;관리자는 모든 Tenant(group)을 볼수 있으며,  특정 Tenant 에 속하는 사용자는 해당 Tenant의 VM만 보이면 됨 &#xA;&#xA;VM 이름 선택시 옵션 화면이 출력되어 &#xA;VM Action을 수행할수 있음 " measuredWidth="548" measuredHeight="93" textAlignment="Left">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Combo" id="4" x="800" y="85" text="이름&#xA;IP&#xA;MAC" measuredWidth="47" measuredHeight="65">
+  <widgets xsi:type="model:Combo" id="4" x="920" y="85" text="이름&#xA;IP&#xA;MAC" measuredWidth="47" measuredHeight="65">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="5" x="1008" y="85" text="검색" measuredWidth="40" measuredHeight="25">
+  <widgets xsi:type="model:Button" id="5" x="1128" y="85" text="검색" measuredWidth="40" measuredHeight="25">
     <font/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="6" x="856" y="86" width="145" text="키워드" measuredWidth="145" measuredHeight="23">
+  <widgets xsi:type="model:TextField" id="6" x="976" y="86" width="145" text="키워드" measuredWidth="145" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Note" id="7" x="800" y="32" text="VM이름, IP주소, MAC 키워드로 검색 가능 &#xA;리스트할수 있는 목록에서 검색 되어야 함 " measuredWidth="219" measuredHeight="46">
+  <widgets xsi:type="model:Note" id="7" x="920" y="32" text="VM이름, IP주소, MAC 키워드로 검색 가능 &#xA;리스트할수 있는 목록에서 검색 되어야 함 " measuredWidth="219" measuredHeight="46">
     <font/>
   </widgets>
   <widgets xsi:type="model:LinkBar" id="8" x="424" y="275" text="1,2,3,4,5" measuredWidth="128" measuredHeight="23">
